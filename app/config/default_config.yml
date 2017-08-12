@@ -1,3 +1,7 @@
+# Copy this file to default_config.yml
+# and change configuration (at least mysql username and password)
+
+
 # Database setup. The driver can be either 'sqlite', 'mysql' or 'postgres'.
 #
 # For SQLite, only the databasename is required. However, MySQL and PostgreSQL
@@ -6,8 +10,11 @@
 #
 # If you're trying out Bolt, just keep it set to SQLite for now.
 database:
-    driver: sqlite
+    driver: mysql
     databasename: bolt
+    username: dbusername
+    password: dbpassword
+  
 
 # The name of the website
 sitename: A sample site
