@@ -28,3 +28,6 @@ npm-debug.log
 __*
 Thumbs.db
 Vagrantfile
+
+# Configuration
+app/config/config.yml
