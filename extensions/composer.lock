@@ -1,0 +1,76 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d6cfda9506066b8fbac9d9a44c3ff53b",
+    "packages": [
+        {
+            "name": "nestordedios/bolt-theme-ion",
+            "version": "v2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nestordedios/bolt-theme-ion.git",
+                "reference": "9fe01d06aa3277edd4021c3387dad0eacc0d6e26"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nestordedios/bolt-theme-ion/zipball/9fe01d06aa3277edd4021c3387dad0eacc0d6e26",
+                "reference": "9fe01d06aa3277edd4021c3387dad0eacc0d6e26",
+                "shasum": ""
+            },
+            "require": {
+                "bolt/bolt": "^3.0"
+            },
+            "type": "bolt-theme",
+            "extra": {
+                "bolt-screenshots": [
+                    "screenshots/screenshot1.png",
+                    "screenshots/screenshot2.png",
+                    "screenshots/screenshot3.png",
+                    "screenshots/screenshot4.png",
+                    "screenshots/screenshot5.png",
+                    "screenshots/screenshot6.png",
+                    "screenshots/screenshot7.png"
+                ]
+            },
+            "license": [
+                "CCA (Creative Commons Attribution)"
+            ],
+            "authors": [
+                {
+                    "name": "Nestor de Dios Fernandez",
+                    "email": "nestordedios@outlook.es"
+                },
+                {
+                    "name": "TEMPLATED",
+                    "homepage": "www.templated.co"
+                }
+            ],
+            "description": "Ion - A crisp, modern responsive template built with a business-y slant.",
+            "keywords": [
+                "awesome",
+                "business",
+                "ion",
+                "modern",
+                "responsive",
+                "template",
+                "theme"
+            ],
+            "support": {
+                "source": "https://github.com/nestordedios/bolt-theme-ion/tree/v2.0",
+                "issues": "https://github.com/nestordedios/bolt-theme-ion/issues"
+            },
+            "time": "2016-05-24T20:39:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

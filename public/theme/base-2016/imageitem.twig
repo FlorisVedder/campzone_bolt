@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>{{ image.title }}</title>
+</head>
+
+<body>
+
+<article>
+
+    <h1><a href="{{ image.link }}">{{ image.title }}</a></h1>
+
+    {#{% if content.image!="" %}#}
+        {#<div class='imageholder'><img src="{{ image.image|thumbnail(480, 480) }}"></div>#}
+    {#{% endif %}#}
+
+    {% if image.values.image!="" %}
+        <div class='imageholder'><img src="{{ image.values.image|thumbnail(480, 480) }}"></div>
+    {% endif %}
+
+    {#{{ dump(image) }}#}
+
+    {{ image.text }}
+
+
+</article>
+</body>
+</html>

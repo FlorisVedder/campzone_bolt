@@ -19,4 +19,23 @@
 
     {% endif %}
 
+    <span>TEST IN INDEX</span>
+
+    {% setcontent images = "image/latest/4" %}
+
+    {% for image in images %}
+        <article>
+            <h2><a href="{{ image.link }}">{{ image.title }}</a></h2>
+
+            {{ image.excerpt }}
+
+            <p class="meta"><a href="{{ image.link }}">Link</a> -
+                Posted by {{ image.user.displayname }}
+                on {{ image.datecreated|date("M d, ’y")}}</p>
+
+        </article>
+    {% endfor %}
+
 {% endblock main %}
+
+

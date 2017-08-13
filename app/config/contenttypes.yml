@@ -229,6 +229,26 @@ blocks:
     icon_many: "fa:cubes"
     icon_one: "fa:cube"
 
+# Image content type
+image:
+    name: Images
+    singular_name: Image
+    fields:
+        title:
+            type: text
+            class: large
+        slug:
+            type: slug
+            uses: title
+        image:
+            type: image
+        text:
+            type: html
+            height: 300px
+    record_template: imageitem.twig
+    default_status: published
+    searchable: true
+
 # Possible field types:
 #
 # text - varchar(256) - input type text.
