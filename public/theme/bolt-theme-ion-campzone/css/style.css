@@ -182,7 +182,7 @@
 
 	header.major {
 		text-align: center;
-		margin: 0 0 4em 0;
+		margin: 0 0 3em 0;
 	}
 
 		header.major h2 {
@@ -837,7 +837,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0;
+		padding: 3em 0 4em 0;
 	}
 
 		.wrapper.style1 {
@@ -882,7 +882,6 @@
 	}
 
 	#header {
-		background: #fff;
 		color: #555f66;
 		cursor: default;
 		height: 3em;
@@ -1059,6 +1058,10 @@
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
 			color: #ffffff;
+		}
+
+		#banner h2, #banner p {
+			text-shadow: 2px 1px 2px #222
 		}
 
 		#banner .button.alt {

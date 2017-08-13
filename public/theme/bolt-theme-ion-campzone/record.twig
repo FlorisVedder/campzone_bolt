@@ -4,16 +4,15 @@
 <!-- Main -->
     <section id="main" class="wrapper style1">
         <header class="major">
-            <h2>No Sidebar</h2>
-            <p>Tempus adipiscing commodo ut aliquam blandit</p>
+            <h2>{{ record.title }}</h2>
         </header>
+        {#{{ dump(record) }}#}
         <div class="container">
             <section>
-                <h2>{{ record.title }}</h2>
                 {% if record.image is not empty %}
                     <a href="#" class="image fit"><img src="{{ record.image|image }}" alt="" /></a>
                 {% endif %}
-                <p>{{ record.body }}</p>
+                <p>{{ record.text }}</p>
             </section>
             <hr class="major" />
             <div class="row">
